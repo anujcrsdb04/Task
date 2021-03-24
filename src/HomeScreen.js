@@ -55,8 +55,7 @@ export default function HomeScreen({ navigation }) {
               }
         
         else{
-            ifnumberempty(false)
-            ifnameempty(false)
+          
 navigation.navigate('Data', {
             imagepath: image,
             Name: name,
